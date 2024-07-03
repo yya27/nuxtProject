@@ -1,0 +1,33 @@
+{
+  "name": "m29",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt --dotenv .env.development",
+    "build": "nuxt build --dotenv .env.production",
+    "start": "nuxt start --dotenv .env.production",
+    "generate": "nuxt generate --dotenv .env.production",
+    "dev:generate": "SET NODE_OPTIONS=--openssl-legacy-provider && cross-env NODE_ENV=development nuxt generate --dotenv .env.development",
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/proxy": "^2.1.0",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "core-js": "^3.25.3",
+    "nuxt": "^2.17.2",
+    "swiper": "5.4",
+    "element-ui": "^2.15.10",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-gtag": "^1.16.1"
+  },
+  "devDependencies": {
+    "@iconify-json/la": "^1.1.8",
+    "@unocss/nuxt": "^0.58.8",
+    "cross-env": "^7.0.3",
+    "less": "^4.2.0",
+    "less-loader": "^7.3.0",
+    "patch-package": "^8.0.0"
+  }
+}

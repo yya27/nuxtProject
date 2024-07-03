@@ -1,0 +1,12 @@
+import Vue from "vue";
+import { Pagination,Carousel,CarouselItem,Steps,Step,Collapse,CollapseItem,Form,FormItem,Input } from "element-ui";
+Vue.use(Pagination);
+Vue.use(Carousel);
+Vue.use(CarouselItem); 
+Vue.use(Steps); 
+Vue.use(Step); 
+Vue.use(Collapse); 
+Vue.use(CollapseItem); 
+Vue.use(Form); 
+Vue.use(FormItem); 
+Vue.use(Input); 
